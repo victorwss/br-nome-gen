@@ -48,24 +48,24 @@ def seq_s(*itens: S) -> c_str:
     return inner
 
 nome_masculino: c_str = choice_s(
-    "Ademar", "Adílson", "Adônis", "Adriano", "Albano", "Albino", "Ali", "Alisson", "Alan", "Alberto", "Aldo", "Alessandre", "Alex", "Alexandre", "Alfredo", "Aloísio", "Altair", "Altino", "Álvaro", "Amarildo", "Anakin", "Anderson", "André", "Ângelo", "Antônio", "Armando", "Arnaldo", "Artur", "Arthur", "Augusto", "Aurélio", "Áureo", "Avelino", "Ayrton",
+    "Abílio", "Ademar", "Adílson", "Adônis", "Adriano", "Aécio", "Alan", "Albano", "Alberto", "Albino", "Aldo", "Alessandre", "Alex", "Alexandre", "Alfredo", "Ali", "Alisson", "Aloísio", "Altair", "Altino", "Álvaro", "Amarildo", "Anakin", "Anderson", "André", "Ângelo", "Antônio", "Armando", "Arnaldo", "Artur", "Arthur", "Augusto", "Aurélio", "Áureo", "Avelino", "Ayrton",
     "Baltazar", "Barnabé", "Bartolomeu", "Batista", "Benedito", "Benjamin", "Bento", "Bernardo", "Beto", "Bóris", "Breno", "Bruno",
-    "Caio", "Camilo", "Carlos", "Cauê", "Celso", "César", "Charles", "Chico", "Cícero", "Ciro", "Cléber", "Cleberson", "Cristiano",
+    "Caio", "Camilo", "Carlos", "Cauê", "Celso", "César", "Charles", "Chico", "Cícero", "Cirilo", "Ciro", "Cléber", "Cleberson", "Cristiano",
     "Damião", "Daniel", "Danilo", "Dante", "Dário", "Davi", "David", "Décio", "Demilson", "Denis", "Diego", "Diogo", "Dionísio", "Domingos",
-    "Ederson", "Edinaldo", "Edivaldo", "Edson", "Edu", "Eduardo", "Elano", "Elias", "Eliel", "Elói", "Emílio", "Eric", "Estevão", "Everaldo", "Everton", "Ezequiel",
+    "Ederson", "Edinaldo", "Edivaldo", "Edson", "Edu", "Eduardo", "Elano", "Elias", "Eliel", "Elói", "Emanoel", "Emílio", "Eric", "Estevão", "Eugênio", "Eustáquio", "Everaldo", "Everton", "Ezequiel",
     "Fabiano", "Fábio", "Fabrício", "Fagner", "Felipe", "Félix", "Filipe", "Fernando", "Flávio", "Francisco", "Fred", "Frederico",
     "Gabriel", "Geraldo", "Gilberto", "Giovanni", "Giuseppe", "Gilmar", "Gilson", "Guilherme", "Gustavo",
     "Hamilton", "Heitor", "Helder", "Hélio", "Henrique", "Hércules", "Heron", "Hildebrando", "Hilton", "Hugo", "Humberto",
-    "Iago", "Igor", "Inácio", "Isaías", "Isac", "Ismael", "Itamar", "Ivan",
-    "Jacinto", "Jack", "Jackson", "Jair", "Jairo", "Jason", "Jardel", "Jaziel", "Jean", "Jeferson", "Jesus", "João", "João", "João", "João", "Joaquim", "Jonas", "Jonathan", "Jonathas", "Jorge", "José", "José", "José", "Josiel", "Juan", "Júlio", "Juliano", "Junior",
+    "Iago", "Igor", "Inácio", "Isaías", "Isac", "Ismael", "Israel", "Itamar", "Ivan",
+    "Jacinto", "Jack", "Jackson", "Jair", "Jairo", "Jânio", "Jason", "Jardel", "Jaziel", "Jean", "Jeferson", "Jesus", "João", "João", "João", "João", "Joaquim", "Joel", "Jonas", "Jonathan", "Jonathas", "Jorge", "José", "José", "José", "Josiel", "Juan", "Júlio", "Juliano", "Junior",
     "Karl", "Kauê", "Kevin", "Kim",
-    "Laerte", "Leandro", "Leo", "Leonardo", "Leopoldo", "Lino", "Luan", "Lucas", "Lúcio", "Luciano", "Luigi", "Luís", "Luiz", "Luke",
-    "Manoel", "Manuel", "Marcelo", "Marciano", "Márcio", "Marco", "Marcos", "Mariano", "Mário", "Marlon", "Martin", "Martinho", "Mateus", "Matheus", "Maurício", "Max", "Micael", "Michel", "Miguel", "Mike", "Milton", "Murilo",
+    "Laércio", "Laerte", "Leandro", "Leo", "Leonardo", "Leopoldo", "Lino", "Luan", "Lucas", "Lúcio", "Luciano", "Luigi", "Luís", "Luiz", "Luke",
+    "Manoel", "Manuel", "Marcelo", "Marciano", "Márcio", "Marco", "Marcos", "Mariano", "Mário", "Marlon", "Martin", "Martinho", "Mateus", "Matheus", "Maurício", "Max", "Micael", "Michel", "Miguel", "Mike", "Milton", "Moacyr", "Moisés", "Murilo",
     "Nathan", "Nelson", "Ney", "Nicolas", "Nicolau", "Nilo", "Nilton", "Nivaldo",
     "Olavo", "Oliver", "Omar", "Orlando", "Oséas", "Osório", "Osvaldo", "Otaviano", "Otávio", "Otto",
     "Pablo", "Patrick", "Paulo", "Paulo", "Pedro", "Plínio",
     "Quico", "Quirino",
-    "Rafael", "Ramon", "Raul", "Reginaldo", "Reinaldo", "Renato", "Ricardo", "Ricardo", "Rivaldo", "Robert", "Roberto", "Robson", "Rodrigo", "Rodrigo", "Rodolfo", "Roger", "Rogério", "Romildo", "Ronaldo",
+    "Rafael", "Ramon", "Raul", "Reginaldo", "Reinaldo", "Renato", "Ricardo", "Ricardo", "Rivaldo", "Robert", "Roberto", "Roberval", "Robson", "Rodrigo", "Rodrigo", "Rodolfo", "Roger", "Rogério", "Romildo", "Ronaldo",
     "Samuel", "Sandro", "Saulo", "Sebastião", "Sérgio", "Severino", "Silvair", "Sílvio", "Simão",
     "Táles", "Tiago", "Thiago", "Tomáz", "Toninho", "Túlio",
     "Uribe",
@@ -77,32 +77,32 @@ nome_masculino: c_str = choice_s(
 )
 
 nome_feminino: c_str = choice_s(
-    "Abigail", "Adriana", "Adrielle", "Alana", "Albina", "Alessandra", "Aline", "Amália", "Amanda", "Amélia", "Ana", "Ana", "Ana", "Ana", "Anna", "Anne", "Andréia", "Andressa", "Ângela", "Angélica", "Aparecida", "Ariana", "Arilda", "Arlete",
-    "Bárbara", "Beatriz", "Berenice", "Bianca", "Brenda", "Bruna",
+    "Abigail", "Adriana", "Adrielle", "Alana", "Albina", "Alessandra", "Aline", "Amália", "Amanda", "Amélia", "Ana", "Ana", "Ana", "Ana", "Ana", "Anna", "Anne", "Andréia", "Andressa", "Ângela", "Angélica", "Aparecida", "Ariana", "Ariel", "Arilda", "Arlete",
+    "Bárbara", "Beatriz", "Bella", "Berenice", "Bernadete", "Bete", "Bianca", "Brenda", "Bruna",
     "Camila", "Carla", "Cármen", "Carolina", "Caroline", "Cássia", "Catarina", "Cecília", "Celeste", "Célia", "Celina", "Charlene", "Christie", "Cibele", "Cícera", "Cíntia", "Clara", "Clarice", "Cláudia", "Cleuza", "Clotilde", "Cristiane", "Cristina",
-    "Damares", "Daiane", "Daniela", "Danielle", "Dara", "Denise", "Diana", "Dina",
-    "Ediane", "Eduarda", "Elaine", "Eliane", "Elisa", "Elizabete", "Elisete", "Eliomar", "Elisângela", "Eloá", "Érica", "Eunice", "Evelyn",
-    "Fabiana", "Fabíola", "Fátima", "Fernanda", "Felícia", "Flávia", "Flaviana",
-    "Gabriela", "Gabrielle", "Gigi", "Gilmara", "Gisele", "Gislaine", "Graziele", "Guiomar",
+    "Damares", "Daiane", "Daniela", "Danielle", "Dara", "Denise", "Diana", "Dilma", "Dina",
+    "Ediane", "Edilene", "Eduarda", "Elaine", "Eleonora", "Eleriane", "Eliane", "Elisa", "Elizabete", "Elisete", "Eliomar", "Elisângela", "Eloá", "Érica", "Eulália", "Eunice", "Eva", "Evelyn",
+    "Fabiana", "Fabíola", "Fátima", "Fernanda", "Felícia", "Flávia", "Flaviana", "Francielle",
+    "Gabriela", "Gabrielle", "Genir", "Gigi", "Gilmara", "Gisele", "Gislaine", "Graziele", "Guiomar",
     "Helena", "Hellen", "Heloísa", "Hilda",
-    "Isabel", "Isabela", "Ingrid", "Itamara", "Ivete",
+    "Isabel", "Isabela", "Ingrid", "Isaiane", "Itamara", "Ivanete", "Ivete", "Ivone",
     "Janaína", "Jandira", "Janete", "Jaqueline", "Jeniffer", "Jenny", "Jéssica", "Joelma", "Josiane", "Josilda", "Joyce", "Júlia", "Juliana", "Jussara",
     "Karin", "Karina", "Kátia", "Kelly", "Keyla",
-    "Laila", "Laís", "Lana", "Lara", "Larissa", "Laura", "Léia", "Leila", "Lena", "Leni", "Liane", "Lígia", "Lili", "Lilian", "Lina", "Lisa", "Lívia", "Luara", "Lúcia", "Luciana", "Luiza", "Luzia", "Luzimara", "Luzinete",
-    "Madalena", "Magali", "Maíra", "Maísa", "Manuela", "Mara", "Marcela", "Márcia", "Marciane", "Marcielle", "Maria", "Maria", "Maria", "Maria", "Maria", "Mariana", "Marielle", "Marilúcia", "Marina", "Marlene", "Marli", "Marta", "Matilde", "Mayara", "Mayra", "Meire", "Mel", "Melanie", "Melissa", "Michele", "Mikaella", "Milene", "Mirela", "Mirian", "Mônica", "Monique",
+    "Laila", "Laís", "Lana", "Lara", "Larissa", "Laura", "Léia", "Leila", "Leonara", "Lena", "Leni", "Liane", "Lidiane", "Lígia", "Lili", "Lilian", "Lina", "Lisa", "Lívia", "Luara", "Lúcia", "Luciana", "Luiza", "Luzia", "Luzimara", "Luzinete",
+    "Madalena", "Magali", "Maíra", "Maísa", "Manuela", "Mara", "Marcela", "Márcia", "Marciane", "Marcielle", "Margarete", "Margarida", "Maria", "Maria", "Maria", "Maria", "Maria", "Maria", "Mariana", "Marielle", "Marilúcia", "Marina", "Marlene", "Marli", "Marta", "Matilde", "Mayara", "Mayra", "Meire", "Mel", "Melanie", "Melissa", "Michele", "Mikaella", "Milene", "Mirela", "Mirian", "Mônica", "Monique",
     "Nádia", "Nair", "Natália", "Nayara", "Neila", "Nicole", "Núbia",
     "Olga", "Olímpia", "Olívia", "Otávia",
     "Patrícia", "Patrícia", "Paula", "Paula", "Paulínia", "Priscila", "Poliana",
     "Quésia", "Quitéria",
-    "Rafaela", "Raiane", "Raíssa", "Raquel", "Rebeca", "Regina", "Renata", "Rita", "Roberta", "Rosa", "Rosana", "Rosângela", "Rose", "Roseli", "Rosilda", "Rute",
-    "Sabrina", "Samanta", "Samara", "Samila", "Sandra", "Sara", "Selena", "Selma", "Sheila", "Shirley", "Simone", "Sílvia", "Solange", "Sônia", "Soraya", "Suellen", "Suely", "Susan", "Suzana", "Suzanne", "Suzy",
-    "Tânia", "Taís", "Tainá", "Tainara", "Talita", "Tatiana", "Tatiane", "Telma", "Teresa", "Terezinha", "Thaís", "Thaíssa", "Tina",
+    "Rafaela", "Raiane", "Raíssa", "Raquel", "Rebeca", "Regina", "Renata", "Rita", "Roberta", "Rosa", "Rosana", "Rosângela", "Rose", "Roseli", "Rosilda", "Rosimeire", "Rute",
+    "Sabrina", "Samanta", "Samara", "Sâmia", "Samila", "Sandra", "Sara", "Selena", "Selma", "Sheila", "Shirley", "Simone", "Sílvia", "Solange", "Sônia", "Soraya", "Suellen", "Suely", "Susan", "Suzana", "Suzanne", "Suzy",
+    "Tábata", "Tânia", "Taís", "Tainá", "Tainara", "Talita", "Tatiana", "Tatiane", "Telma", "Teresa", "Terezinha", "Thaís", "Thaíssa", "Tina",
     "Úrsula",
-    "Valéria", "Valeska", "Valquíria", "Vanda", "Vanessa", "Vânia", "Velma", "Vera", "Verônica", "Vitória", "Violeta", "Vívian", "Viviane",
+    "Valdirene", "Valéria", "Valeska", "Valquíria", "Vanda", "Vanessa", "Vânia", "Velma", "Vera", "Verônica", "Vitória", "Violeta", "Vívian", "Viviane",
     "Walderice", "Wanda", "Wendy", "Wilma",
     "Xilena",
     "Yasmin", "Yeda", "Yolanda",
-    "Zenaide", "Zilda", "Zuleide", "Zulmira"
+    "Zara", "Zenaide", "Zilda", "Zuleide", "Zulmira"
 )
 
 sobrenome_comum: c_str = choice_s(
@@ -110,28 +110,28 @@ sobrenome_comum: c_str = choice_s(
 )
 
 sobrenome_incomum: c_str = choice_s(
-    "de Abreu", "de Aguiar", "de Albuquerque", "de Alcântara", "de Alencar", "de Almeida", "de Alvarenga", "de Álvares", "de Alves", "de Alvim", "do Amaral", "do Amazonas", "de Amorim", "de Andrade", "de Angola", "de Antunes", "de Arantes", "de Araújo", "de Arruda", "de Assis", "de Azevedo", "de Ayres",
-    "Bahia", "Banhos", "de Barboza", "de Barros", "Barroso", "de Bezerra", "de Braga", "de Bragança", "de Brandão", "Brasil", "de Brito", "de Britto", "de Borges", "Buarque", "de Bueno",
-    "de Cabral", "Câmara", "de Campos", "de Cardoso", "de Cardozo", "de Carvalho", "de Castro", "Cavalcante", "de Cerqueira", "de Chaves", "da Conceição", "da Costa", "Coutinho", "da Cruz", "da Cunha",
+    "de Abreu", "de Aguiar", "de Albuquerque", "de Alcântara", "de Alencar", "de Almeida", "de Alvarenga", "de Álvares", "de Alves", "de Alvim", "do Amaral", "do Amazonas", "de Amorim", "de Andrade", "de Angola", "de Antunes", "de Arantes", "de Araújo", "de Arruda", "de Assis", "de Assunção", "de Ayres", "de Azevedo",
+    "Bahia", "Banhos", "de Barboza", "de Barros", "Barroso", "de Bezerra", "de Braga", "de Bragança", "de Brandão", "Brasil", "de Brito", "de Britto", "de Borges", "Branco", "Buarque", "de Bueno",
+    "de Cabral", "de Camargo", "Câmara", "de Campos", "de Cardoso", "de Cardozo", "de Carvalho", "Castelo", "Castelo Branco", "de Castro", "Cavalcante", "de Cerqueira", "de Chaves", "da Conceição", "da Costa", "Coutinho", "da Cruz", "da Cunha",
     "d'Ávila", "Dias", "de Diniz", "de Drummond", "de Duarte", "Duque", "Dutra",
     "da Encarnação", "Espada", "de Espanha", "do Espírito Santo", "Estrada",
     "de Farias", "de Ferreira", "de Fernandes", "de Ferraz", "de Figueira", "de Figueiredo", "de Fonseca", "Fontes", "Fortes", "de Fraga", "Fragoso", "de França", "Franco", "Freire", "de Freitas", "Frias",
-    "da Gama", "de Garcia", "de Gimenez", "de Godoy", "Góis", "de Gonçalves", "da Graça", "Guedes", "Guerra", "de Guimarães", "de Gusmão", "de Gusmões",
+    "da Gama", "de Garcia", "de Gimenes", "de Godoy", "Góis", "de Gonçalves", "da Graça", "Guedes", "Guerra", "de Guimarães", "de Gusmão", "de Gusmões", "Gutierrez",
     "Herrera", "de Holanda",
     "de Iglesias",
-    "Jangada",
+    "Jangada", "Jardim", "de Junqueira",
     "Klein",
     "de Lacerda", "de Leão", "de Leite", "de Lemes", "de Lemos", "de Lima", "de Linhares", "de Lins", "da Lira", "de Lisboa", "Lopes", "da Luz",
-    "de Macedo", "de Machado", "de Madureira", "de Magalhães", "de Maia", "de Malta", "do Maranhão", "Marinho", "de Martins", "Martinez", "da Mata", "de Matos", "de Meireles", "de Melo", "de Mello", "Mendes", "de Menezes", "Mercado", "Milani", "Mineiro", "de Miranda", "de Monteiro", "de Morais", "de Moreira", "Moreno", "de Moura", "Mourão", "de Munhoz", "de Muniz",
-    "do Nascimento", "Naves", "Negrão", "das Neves", "da Nóbrega", "de Nogueira", "de Novais", "Nunes",
+    "de Macedo", "de Machado", "Maciel", "de Madureira", "de Magalhães", "de Maia", "de Malta", "do Maranhão", "Marinho", "Marques", "de Martins", "Martinez", "da Mata", "de Matos", "de Medeiros", "de Meireles", "de Melo", "de Mello", "Mendes", "de Menezes", "Mercado", "Milani", "Mineiro", "de Miranda", "de Monteiro", "de Morais", "de Moreira", "Moreno", "de Moura", "Mourão", "de Munhoz", "de Muniz",
+    "do Nascimento", "Naves", "Negrão", "das Neves", "da Nóbrega", "de Nogueira", "de Noronha", "de Novais", "Nunes",
     "de Oliva", "de Ortiz", "de Osório",
-    "Paim", "da Paixão", "de Paiva", "Paraíba", "Paraná", "Parreira", "de Pascoal", "da Paz", "de Peixoto", "Penedo", "de Pereira", "de Peres", "Pimenta", "Pinhão", "dos Pinhais", "de Pinheiro", "do Piauí", "Pinto", "Pires", "Portugal", "do Prado", "Prates", "Preto",
+    "de Pacheco", "de Padilha", "Paim", "da Paixão", "de Paiva", "de Palhares", "da Paraíba", "do Paraná", "de Parreira", "de Pascoal", "da Paz", "de Peixoto", "Penedo", "de Pereira", "de Peres", "Pimenta", "de Pimentel", "Pinhão", "dos Pinhais", "de Pinheiro", "do Piauí", "Pinto", "Pires", "Portugal", "do Prado", "Prates", "Preto",
     "de Queiroz",
-    "de Ramos", "Rangel", "dos Reis", "de Rezende", "Ribeiro", "do Rio", "da Rocha", "Rodrigues", "Rosatto", "Rossi",
-    "de Sá", "de Sales", "de Salgado", "de Sampaio", "Sanches", "de Santana", "Schmidt", "Schneider", "Seixas", "da Serra", "de Silveira", "de Simões", "de Siqueira", "de Soares", "de Sobral", "Souto",
-    "de Tavares", "de Teixeira", "Teles", "de Torquato", "de Trindade", "Tristão", "Torres", "de Tozetto",
+    "de Ramos", "Rangel", "dos Reis", "de Rezende", "Ribeiro", "do Rio", "da Rocha", "Rodrigues", "Rosa", "Rosatto", "Rossi",
+    "de Sá", "de Sales", "de Salgado", "de Salvador", "de Sampaio", "Sanches", "de Santana", "de Santo Antônio", "de São Pedro", "Schmidt", "Schneider", "Seixas", "da Serra", "de Silveira", "de Simões", "de Siqueira", "de Soares", "de Sobral", "Souto",
+    "de Tavares", "de Teixeira", "Teles", "de Torquato", "Trevisan", "de Trindade", "Tristão", "de Toledo", "Torres", "de Tozetto",
     "de Uchôa",
-    "do Vale", "de Vargas", "de Vasconcelos", "Vaz", "de Viana", "de Vieira",
+    "do Vale", "Valente", "de Vargas", "de Vasconcelos", "Vaz", "de Viana", "de Vieira",
     "Weber", "Weiss", "Werner",
     "Ximenes",
     #Y
@@ -140,8 +140,7 @@ sobrenome_incomum: c_str = choice_s(
 
 def remove_de(nome: str) -> str:
     i: int = nome.find(" ")
-    if i == -1: return nome
-    return nome[i + 1:]
+    return nome if i == -1 or nome[0:i] in ["de", "da", "do", "das", "dos"] else nome[i + 1:]
 
 def sobrenome_normal() -> str:
     nome: str = choice_s(sobrenome_comum, sobrenome_incomum, sobrenome_incomum, sobrenome_incomum)()
@@ -207,39 +206,44 @@ def sobrenome_random() -> str:
         x = sobrenome_random_c()
     return up(x)()
 
-sobrenome: c_str = choice_s(sobrenome_normal, sobrenome_normal, sobrenome_normal, sobrenome_random, sobrenome_random_japones)
+sobrenome: c_str = choice_s(
+    sobrenome_normal, sobrenome_normal, sobrenome_normal, sobrenome_random,
+    sobrenome_normal, sobrenome_normal, sobrenome_normal, sobrenome_random, 
+    sobrenome_normal, sobrenome_normal, sobrenome_normal, sobrenome_random,
+    sobrenome_random_japones
+)
 
 @dataclass(frozen = True)
 class Pessoa:
     nome: str
     masc: bool
 
-def pessoa_random(distribuicao: Sequence[bool] = (True, False)) -> Pessoa:
-    a1: str = ''
-    a2: str = ''
+def colisao(a: str, b: str) -> bool:
+    return len(set(a.strip().split(" ")) & set(b.strip().split(" "))) != 0
 
+def pessoa_random(distribuicao: Sequence[bool] = (True, False)) -> Pessoa:
     masc: bool = random_element(*distribuicao)
 
-    if masc:
-        a1 = nome_masculino()
-        a2 = a1
-        while a1 == a2: a2 = nome_masculino()
-    else:
-        a1 = nome_feminino()
-        a2 = a1
-        while a1 == a2: a2 = nome_feminino()
+    a1: str = (nome_masculino() if masc else nome_feminino())
+    nome: str = a1
 
+    a2: str = ''
     if random_element(True, False):
-        a1 += " " + a2
+        a2 = a1
+        while colisao(nome, remove_de(a2)): a2 = (nome_masculino() if masc else nome_feminino())
+        nome += ' ' + a2
 
-    s1: str = sobrenome()
+    s1: str = a1
+    while colisao(nome, remove_de(s1)): s1 = sobrenome()
+    nome += ' ' + s1
 
     if random_element(True, False):
         s2: str = s1
-        while remove_de(s1) == remove_de(s2): s2 = sobrenome()
-        s1 += " " + s2
+        while colisao(nome, remove_de(s2)): s2 = sobrenome()
+        nome += ' ' + s2
         if random_element(True, False):
             s3: str = s1
-            while remove_de(s3) in [remove_de(s1), remove_de(s2)]: s3 = sobrenome()
-            s1 += " " + s3
-    return Pessoa(a1 + " " + s1, masc)
+            while colisao(nome, remove_de(s3)): s3 = sobrenome()
+            nome += ' ' + s3
+
+    return Pessoa(nome, masc)

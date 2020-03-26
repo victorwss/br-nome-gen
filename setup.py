@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name = "br-nome-gen",
-    version = "1.1.0",
+    version = "1.2.0",
     author = "Victor Williams Stafusa da Silva",
     author_email = "victorwssilva@gmail.com",
     description = "A generator of Brazilian typical names.",
