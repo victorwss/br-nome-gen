@@ -65,7 +65,7 @@ nome_masculino: c_str = choice_s(
     "Olavo", "Oliver", "Omar", "Orlando", "Oséas", "Osório", "Osvaldo", "Otaviano", "Otávio", "Otto",
     "Pablo", "Patrick", "Paulo", "Paulo", "Pedro", "Plínio",
     "Quico", "Quirino",
-    "Rafael", "Ramon", "Raul", "Reginaldo", "Reinaldo", "Renato", "Ricardo", "Ricardo", "Rivaldo", "Robert", "Roberto", "Roberval", "Robson", "Rodrigo", "Rodrigo", "Rodolfo", "Roger", "Rogério", "Romildo", "Ronaldo",
+    "Rafael", "Raí", "Ramon", "Raul", "Reginaldo", "Reinaldo", "Renato", "Ricardo", "Ricardo", "Rivaldo", "Robert", "Roberto", "Roberval", "Robson", "Rodrigo", "Rodrigo", "Rodolfo", "Roger", "Rogério", "Romildo", "Ronaldo",
     "Samuel", "Sandro", "Saulo", "Sebastião", "Sérgio", "Severino", "Silvair", "Sílvio", "Simão",
     "Táles", "Tiago", "Thiago", "Tomáz", "Toninho", "Túlio",
     "Uribe",
@@ -85,15 +85,15 @@ nome_feminino: c_str = choice_s(
     "Fabiana", "Fabíola", "Fátima", "Fernanda", "Felícia", "Flávia", "Flaviana", "Francielle",
     "Gabriela", "Gabrielle", "Genir", "Gigi", "Gilmara", "Gisele", "Gislaine", "Graziele", "Guiomar",
     "Helena", "Hellen", "Heloísa", "Hilda",
-    "Isabel", "Isabela", "Ingrid", "Isaiane", "Itamara", "Ivanete", "Ivete", "Ivone",
+    "Isabel", "Isabela", "Ingrid", "Isaiane", "Ísis", "Itamara", "Ivanete", "Ivete", "Ivone",
     "Janaína", "Jandira", "Janete", "Jaqueline", "Jeniffer", "Jenny", "Jéssica", "Joelma", "Josiane", "Josilda", "Joyce", "Júlia", "Juliana", "Jussara",
-    "Karin", "Karina", "Kátia", "Kelly", "Keyla",
+    "Karin", "Karina", "Kátia", "Kelly", "Keyla", "Kiara",
     "Laila", "Laís", "Lana", "Lara", "Larissa", "Laura", "Léia", "Leila", "Leonara", "Lena", "Leni", "Liane", "Lidiane", "Lígia", "Lili", "Lilian", "Lina", "Lisa", "Lívia", "Luara", "Lúcia", "Luciana", "Luiza", "Luzia", "Luzimara", "Luzinete",
     "Madalena", "Magali", "Maíra", "Maísa", "Manuela", "Mara", "Marcela", "Márcia", "Marciane", "Marcielle", "Margarete", "Margarida", "Maria", "Maria", "Maria", "Maria", "Maria", "Maria", "Mariana", "Marielle", "Marilúcia", "Marina", "Marlene", "Marli", "Marta", "Matilde", "Mayara", "Mayra", "Meire", "Mel", "Melanie", "Melissa", "Michele", "Mikaella", "Milene", "Mirela", "Mirian", "Mônica", "Monique",
     "Nádia", "Nair", "Natália", "Nayara", "Neila", "Nicole", "Núbia",
     "Olga", "Olímpia", "Olívia", "Otávia",
-    "Patrícia", "Patrícia", "Paula", "Paula", "Paulínia", "Priscila", "Poliana",
-    "Quésia", "Quitéria",
+    "Patrícia", "Patrícia", "Paula", "Paula", "Paula", "Paulínia", "Priscila", "Poliana",
+    "Quênia", "Quésia", "Quitéria",
     "Rafaela", "Raiane", "Raíssa", "Raquel", "Rebeca", "Regina", "Renata", "Rita", "Roberta", "Rosa", "Rosana", "Rosângela", "Rose", "Roseli", "Rosilda", "Rosimeire", "Rute",
     "Sabrina", "Samanta", "Samara", "Sâmia", "Samila", "Sandra", "Sara", "Selena", "Selma", "Sheila", "Shirley", "Simone", "Sílvia", "Solange", "Sônia", "Soraya", "Suellen", "Suely", "Susan", "Suzana", "Suzanne", "Suzy",
     "Tábata", "Tânia", "Taís", "Tainá", "Tainara", "Talita", "Tatiana", "Tatiane", "Telma", "Teresa", "Terezinha", "Thaís", "Thaíssa", "Tina",
@@ -106,32 +106,32 @@ nome_feminino: c_str = choice_s(
 )
 
 sobrenome_comum: c_str = choice_s(
-    "de Barbosa", "Gomes", "de Oliveira", "dos Santos", "dos Santos", "de Souza", "de Souza", "da Silva", "da Silva", "da Silva", "da Silva"
+    "de Barbosa", "Gomes", "de Oliveira", "de Pereira", "dos Santos", "dos Santos", "de Souza", "de Souza", "da Silva", "da Silva", "da Silva", "da Silva"
 )
 
 sobrenome_incomum: c_str = choice_s(
     "de Abreu", "de Aguiar", "de Albuquerque", "de Alcântara", "de Alencar", "de Almeida", "de Alvarenga", "de Álvares", "de Alves", "de Alvim", "do Amaral", "do Amazonas", "de Amorim", "de Andrade", "de Angola", "de Antunes", "de Arantes", "de Araújo", "de Arruda", "de Assis", "de Assunção", "de Ayres", "de Azevedo",
-    "Bahia", "Banhos", "de Barboza", "de Barros", "Barroso", "de Bezerra", "de Braga", "de Bragança", "de Brandão", "Brasil", "de Brito", "de Britto", "de Borges", "Branco", "Buarque", "de Bueno",
-    "de Cabral", "de Camargo", "Câmara", "de Campos", "de Cardoso", "de Cardozo", "de Carvalho", "Castelo", "Castelo Branco", "de Castro", "Cavalcante", "de Cerqueira", "de Chaves", "da Conceição", "da Costa", "Coutinho", "da Cruz", "da Cunha",
+    "Bahia", "Banhos", "de Barboza", "de Barros", "Barroso", "de Bezerra", "de Braga", "de Bragança", "de Brandão", "Brasil", "de Brito", "de Britto", "Borba", "de Borges", "Branco", "Buarque", "de Bueno",
+    "de Cabral", "de Camargo", "Câmara", "de Campos", "de Cardoso", "de Cardozo", "de Carvalho", "Castelo", "Castelo Branco", "de Castro", "Cavalcante", "de Cerqueira", "de Chaves", "da Conceição", "da Costa", "Coutinho", "Couto", "da Cruz", "da Cunha",
     "d'Ávila", "Dias", "de Diniz", "de Drummond", "de Duarte", "Duque", "Dutra",
     "da Encarnação", "Espada", "de Espanha", "do Espírito Santo", "Estrada",
     "de Farias", "de Ferreira", "de Fernandes", "de Ferraz", "de Figueira", "de Figueiredo", "de Fonseca", "Fontes", "Fortes", "de Fraga", "Fragoso", "de França", "Franco", "Freire", "de Freitas", "Frias",
     "da Gama", "de Garcia", "de Gimenes", "de Godoy", "Góis", "de Gonçalves", "da Graça", "Guedes", "Guerra", "de Guimarães", "de Gusmão", "de Gusmões", "Gutierrez",
     "Herrera", "de Holanda",
-    "de Iglesias",
-    "Jangada", "Jardim", "de Junqueira",
+    "de Iglesias", "Igreja",
+    "Jangada", "Jardim", "de Jesus", "de Junqueira",
     "Klein",
     "de Lacerda", "de Leão", "de Leite", "de Lemes", "de Lemos", "de Lima", "de Linhares", "de Lins", "da Lira", "de Lisboa", "Lopes", "da Luz",
-    "de Macedo", "de Machado", "Maciel", "de Madureira", "de Magalhães", "de Maia", "de Malta", "do Maranhão", "Marinho", "Marques", "de Martins", "Martinez", "da Mata", "de Matos", "de Medeiros", "de Meireles", "de Melo", "de Mello", "Mendes", "de Menezes", "Mercado", "Milani", "Mineiro", "de Miranda", "de Monteiro", "de Morais", "de Moreira", "Moreno", "de Moura", "Mourão", "de Munhoz", "de Muniz",
+    "de Macedo", "de Machado", "Maciel", "de Madureira", "de Magalhães", "de Maia", "de Malta", "do Maranhão", "Marinho", "Marques", "de Martins", "Martinez", "da Mata", "de Matos", "de Medeiros", "de Meireles", "de Melo", "de Mello", "Mendes", "de Mendonça", "de Menezes", "Mercado", "Milani", "Mineiro", "de Miranda", "de Monteiro", "de Morais", "de Moreira", "Moreno", "de Moura", "Mourão", "de Munhoz", "de Muniz",
     "do Nascimento", "Naves", "Negrão", "das Neves", "da Nóbrega", "de Nogueira", "de Noronha", "de Novais", "Nunes",
-    "de Oliva", "de Ortiz", "de Osório",
-    "de Pacheco", "de Padilha", "Paim", "da Paixão", "de Paiva", "de Palhares", "da Paraíba", "do Paraná", "de Parreira", "de Pascoal", "da Paz", "de Peixoto", "Penedo", "de Pereira", "de Peres", "Pimenta", "de Pimentel", "Pinhão", "dos Pinhais", "de Pinheiro", "do Piauí", "Pinto", "Pires", "Portugal", "do Prado", "Prates", "Preto",
+    "de Oliva", "de Ortega", "de Ortiz", "de Osório",
+    "de Pacheco", "de Padilha", "Paim", "da Paixão", "de Paiva", "de Palhares", "da Paraíba", "do Paraná", "de Paranhos", "de Parreira", "de Pascoal", "de Paula", "da Paz", "de Peixoto", "Penedo", "de Peres", "Pimenta", "de Pimentel", "Pinhão", "dos Pinhais", "de Pinheiro", "do Piauí", "Pinto", "Pires", "Portugal", "do Prado", "Prates", "Preto",
     "de Queiroz",
     "de Ramos", "Rangel", "dos Reis", "de Rezende", "Ribeiro", "do Rio", "da Rocha", "Rodrigues", "Rosa", "Rosatto", "Rossi",
     "de Sá", "de Sales", "de Salgado", "de Salvador", "de Sampaio", "Sanches", "de Santana", "de Santo Antônio", "de São Pedro", "Schmidt", "Schneider", "Seixas", "da Serra", "de Silveira", "de Simões", "de Siqueira", "de Soares", "de Sobral", "Souto",
     "de Tavares", "de Teixeira", "Teles", "de Torquato", "Trevisan", "de Trindade", "Tristão", "de Toledo", "Torres", "de Tozetto",
     "de Uchôa",
-    "do Vale", "Valente", "de Vargas", "de Vasconcelos", "Vaz", "de Viana", "de Vieira",
+    "do Vale", "Valente", "Valverde", "de Vargas", "de Vasconcelos", "Vaz", "de Viana", "de Vieira",
     "Weber", "Weiss", "Werner",
     "Ximenes",
     #Y
@@ -221,6 +221,12 @@ class Pessoa:
 def colisao(a: str, b: str) -> bool:
     return len(set(a.strip().split(" ")) & set(b.strip().split(" "))) != 0
 
+def sufixo(masc: bool, i: int) -> str:
+    if masc and i < 10: return ' Júnior'
+    if masc and i < 13: return ' Neto'
+    if i == 13: return ' Terceiro'
+    return ''
+
 def pessoa_random(distribuicao: Sequence[bool] = (True, False)) -> Pessoa:
     masc: bool = random_element(*distribuicao)
 
@@ -241,9 +247,13 @@ def pessoa_random(distribuicao: Sequence[bool] = (True, False)) -> Pessoa:
         s2: str = s1
         while colisao(nome, remove_de(s2)): s2 = sobrenome()
         nome += ' ' + s2
-        if random_element(True, False):
+        if random_element(True, False, False, False):
             s3: str = s1
             while colisao(nome, remove_de(s3)): s3 = sobrenome()
             nome += ' ' + s3
+
+    s4: str = a1
+    while colisao(nome, s4.strip()): s4 = sufixo(masc, random.randint(0, 100))
+    nome += s4
 
     return Pessoa(nome, masc)
