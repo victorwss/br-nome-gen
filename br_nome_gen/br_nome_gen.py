@@ -112,7 +112,7 @@ sobrenome_comum: c_str = choice_s(
 sobrenome_incomum: c_str = choice_s(
     "de Abreu", "de Aguiar", "de Albuquerque", "de Alcântara", "de Alencar", "de Almeida", "de Alvarenga", "de Álvares", "de Alves", "de Alvim", "do Amaral", "do Amazonas", "de Amorim", "de Andrade", "de Angola", "de Antunes", "de Arantes", "de Araújo", "de Arruda", "de Assis", "de Assunção", "de Ayres", "de Azevedo",
     "Bahia", "Banhos", "de Barboza", "de Barros", "Barroso", "de Bezerra", "de Braga", "de Bragança", "de Brandão", "Brasil", "de Brito", "de Britto", "Borba", "de Borges", "Branco", "Buarque", "de Bueno",
-    "de Cabral", "de Camargo", "Câmara", "de Campos", "de Cardoso", "de Cardozo", "de Carvalho", "Castelo", "Castelo Branco", "de Castro", "Cavalcante", "de Cerqueira", "de Chaves", "da Conceição", "da Costa", "Coutinho", "Couto", "da Cruz", "da Cunha",
+    "de Cabral", "de Camargo", "Câmara", "de Campos", "de Cardoso", "de Cardozo", "de Carvalho", "Castelo", "Castelo Branco", "de Castro", "Cavalcante", "de Cerqueira", "de Chaves", "de Coelho", "da Conceição", "da Costa", "Coutinho", "Couto", "da Cruz", "da Cunha",
     "d'Ávila", "Dias", "de Diniz", "de Drummond", "de Duarte", "Duque", "Dutra",
     "da Encarnação", "Espada", "de Espanha", "do Espírito Santo", "Estrada",
     "de Farias", "de Ferreira", "de Fernandes", "de Ferraz", "de Figueira", "de Figueiredo", "de Fonseca", "Fontes", "Fortes", "de Fraga", "Fragoso", "de França", "Franco", "Freire", "de Freitas", "Frias",
@@ -131,7 +131,7 @@ sobrenome_incomum: c_str = choice_s(
     "de Sá", "de Sales", "de Salgado", "de Salvador", "de Sampaio", "Sanches", "de Santana", "de Santo Antônio", "de São Pedro", "Schmidt", "Schneider", "Seixas", "da Serra", "de Silveira", "de Simões", "de Siqueira", "de Soares", "de Sobral", "Souto",
     "de Tavares", "de Teixeira", "Teles", "de Torquato", "Trevisan", "de Trindade", "Tristão", "de Toledo", "Torres", "de Tozetto",
     "de Uchôa",
-    "do Vale", "Valente", "Valverde", "de Vargas", "de Vasconcelos", "Vaz", "de Viana", "de Vieira",
+    "do Vale", "Valente", "Valverde", "de Vargas", "Vasco", "de Vasconcelos", "Vaz", "de Viana", "de Vieira",
     "Weber", "Weiss", "Werner",
     "Ximenes",
     #Y
